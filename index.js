@@ -77,6 +77,27 @@ async function openWebsite() {
     if (success) {
       logger.info("Successfully bypassed CAPTCHA!");
       // here you can now do whatever you want with **browser** that return from attemptCaptchaSolve function
+
+      //EXAMPLE////
+
+      const pages = await browser.pages();
+      const page = pages[pages.length - 1];
+
+      await page.waitForSelector('input[placeholder="yourmail@email.co.il"]');
+      await page.type(
+        'input[placeholder="yourmail@email.co.il"]',
+        "EXAMPLE-MAIL",
+        {
+          delay: 100,
+        }
+      );
+
+      await new Promise((r) => setTimeout(r, 3000));
+
+      await page.waitForSelector('input[placeholder="הקלדת סיסמה"]');
+      await page.type('input[placeholder="הקלדת סיסמה"]', "EXAMPLE-PASSWORD", {
+        delay: 100,
+      });
     } else {
       logger.error(`Failed after 3 attempts: ${error}`);
     }
