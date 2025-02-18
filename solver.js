@@ -1,7 +1,7 @@
 const axios = require("axios");
 const logger = require("./logger");
 
-const KEY = "API_KEY";
+const KEY = "APIKEY";
 
 function solvehCaptcha(url) {
   return new Promise(async (resolve, reject) => {

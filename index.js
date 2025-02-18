@@ -9,10 +9,6 @@ async function attemptCaptchaSolve(retryCount = 0) {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
-  page.setExtraHTTPHeaders({
-    "User-Agent": "BOT SCRAPPER",
-  });
-
   try {
     await page.setViewport({ width: 1280, height: 720 });
 
