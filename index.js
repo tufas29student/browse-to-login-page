@@ -11,7 +11,7 @@ async function attemptCaptchaSolve(retryCount = 0) {
 
   // FOR TESTING PURPOSES, PLAY WITH NUMBERS, DONT USE IN PRODUCTION!!!
   // page.setExtraHTTPHeaders({
-  //   "User-Agent": "bot 1.1.1",
+  //   "User-Agent": "bot 1.1.4",
   // });
 
   try {
@@ -81,12 +81,14 @@ async function openWebsite() {
 
     if (success) {
       logger.info("Successfully bypassed CAPTCHA!");
-      // here you can now do whatever you want with **browser** that return from attemptCaptchaSolve function
 
-      //EXAMPLE////
+      await new Promise((r) => setTimeout(r, 3000));
 
       const pages = await browser.pages();
       const page = pages[pages.length - 1];
+
+      // here you can now do whatever you want
+      //EXAMPLE////
 
       await page.waitForSelector('input[placeholder="yourmail@email.co.il"]');
       await page.type(
@@ -96,8 +98,6 @@ async function openWebsite() {
           delay: 100,
         }
       );
-
-      await new Promise((r) => setTimeout(r, 3000));
 
       await page.waitForSelector('input[placeholder="הקלדת סיסמה"]');
       await page.type('input[placeholder="הקלדת סיסמה"]', "EXAMPLE-PASSWORD", {
