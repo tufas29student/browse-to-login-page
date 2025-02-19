@@ -9,11 +9,16 @@ async function attemptCaptchaSolve(retryCount = 0) {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
+  // FOR TESTING PURPOSES, PLAY WITH NUMBERS, DONT USE IN PRODUCTION!!!
+  // page.setExtraHTTPHeaders({
+  //   "User-Agent": "bot 1.1.1",
+  // });
+
   try {
-    await page.setViewport({ width: 1280, height: 720 });
+    await page.setViewport({ width: 720, height: 1080 });
 
     logger.info(`Starting CAPTCHA bypass attempt ${retryCount + 1}`);
-    await page.goto(url);
+    await page.goto(url, { waitUntil: "load" });
 
     await new Promise((r) => setTimeout(r, 3000));
 
@@ -49,8 +54,8 @@ async function attemptCaptchaSolve(retryCount = 0) {
 
     logger.info("CAPTCHA solution submitted");
     await Promise.all([
-      page.waitForNavigation({ timeout: 15000 }),
       page.click(".btn.btn-success.btn-sm"),
+      page.waitForNavigation({ timeout: 15000 }),
     ]);
 
     if (page.url().includes("validate")) {
