@@ -1,0 +1,108 @@
+2025-02-19T16:09:32.283Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:09:40.810Z [error]: SolveCaptcha error: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:40.811Z [error]: Attempt 1 failed: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:41.177Z [info]: Retrying... (1/3)
+2025-02-19T16:09:41.623Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-19T16:09:47.192Z [error]: SolveCaptcha error: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:47.193Z [error]: Attempt 2 failed: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:47.496Z [info]: Retrying... (2/3)
+2025-02-19T16:09:47.939Z [info]: Starting CAPTCHA bypass attempt 3
+2025-02-19T16:09:53.804Z [error]: SolveCaptcha error: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:53.804Z [error]: Attempt 3 failed: ERROR_WRONG_USER_KEY
+2025-02-19T16:09:54.152Z [error]: Failed after 3 attempts: ERROR_WRONG_USER_KEY
+2025-02-19T16:10:30.150Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:10:40.412Z [error]: Attempt 1 failed: Waiting for selector `#cf_input` failed: Waiting failed: 5000ms exceeded
+2025-02-19T16:10:40.742Z [info]: Retrying... (1/3)
+2025-02-19T16:10:41.242Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-19T16:10:47.179Z [info]: Created CAPTCHA task ID: 421917
+2025-02-19T16:10:52.738Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:10:58.319Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:11:03.838Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:11:09.428Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:11:14.827Z [info]: CAPTCHA solved successfully
+2025-02-19T16:11:14.828Z [info]: TOKEN: P1_eyJ0eXA...
+2025-02-19T16:11:23.160Z [info]: CAPTCHA solution submitted
+2025-02-19T16:11:30.635Z [info]: Successfully bypassed CAPTCHA
+2025-02-19T16:11:30.636Z [info]: Successfully bypassed CAPTCHA!
+2025-02-19T16:13:14.346Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:13:23.260Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:13:23.262Z [info]: Successfully bypassed CAPTCHA!
+2025-02-19T16:21:38.238Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:21:47.232Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:21:47.233Z [info]: Successfully bypassed CAPTCHA!
+2025-02-19T16:26:20.427Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:28:51.831Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:30:44.610Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:32:25.495Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:32:33.492Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:32:34.299Z [info]: Created CAPTCHA task ID: 422295
+2025-02-19T16:32:40.075Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:32:45.448Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:32:50.875Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:32:56.408Z [info]: CAPTCHA solved successfully
+2025-02-19T16:32:56.409Z [info]: TOKEN: F1_eyJ0eXA...
+2025-02-19T16:33:00.234Z [info]: CAPTCHA solution submitted
+2025-02-19T16:33:04.644Z [info]: Successfully bypassed CAPTCHA
+2025-02-19T16:34:31.122Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:34:44.800Z [error]: Attempt 1 failed: test
+2025-02-19T16:34:45.176Z [info]: Retrying... (1/3)
+2025-02-19T16:34:45.645Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-19T16:34:58.524Z [error]: Attempt 2 failed: test
+2025-02-19T16:34:58.827Z [info]: Retrying... (2/3)
+2025-02-19T16:34:59.328Z [info]: Starting CAPTCHA bypass attempt 3
+2025-02-19T16:35:06.641Z [error]: Attempt 3 failed: Attempted to use detached Frame '0365555072EB33C12C295826FF95999F'.
+2025-02-19T16:35:27.185Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:35:34.989Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:35:40.039Z [error]: Attempt 1 failed: Waiting for selector `#cf_input` failed: Waiting failed: 5000ms exceeded
+2025-02-19T16:35:40.405Z [info]: Retrying... (1/3)
+2025-02-19T16:35:40.968Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-19T16:35:46.167Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:35:51.212Z [error]: Attempt 2 failed: Waiting for selector `#cf_input` failed: Waiting failed: 5000ms exceeded
+2025-02-19T16:35:51.516Z [info]: Retrying... (2/3)
+2025-02-19T16:35:52.022Z [info]: Starting CAPTCHA bypass attempt 3
+2025-02-19T16:35:57.234Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:35:58.062Z [info]: Created CAPTCHA task ID: 422336
+2025-02-19T16:36:03.736Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:09.064Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:14.795Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:20.580Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:26.211Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:31.900Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:37.222Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:36:42.757Z [info]: CAPTCHA solved successfully
+2025-02-19T16:36:42.758Z [info]: TOKEN: P1_eyJ0eXA...
+2025-02-19T16:36:56.190Z [info]: CAPTCHA solution submitted
+2025-02-19T16:37:03.791Z [info]: Successfully bypassed CAPTCHA
+2025-02-19T16:37:08.275Z [error]: Attempt 3 failed: test
+2025-02-19T16:38:16.971Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:38:24.650Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:38:25.486Z [info]: Created CAPTCHA task ID: 422363
+2025-02-19T16:38:31.146Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:38:36.831Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:38:42.514Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:38:47.994Z [info]: CAPTCHA solved successfully
+2025-02-19T16:38:47.995Z [info]: TOKEN: P1_eyJ0eXA...
+2025-02-19T16:38:56.520Z [info]: CAPTCHA solution submitted
+2025-02-19T16:39:00.535Z [info]: Successfully bypassed CAPTCHA
+2025-02-19T16:42:49.242Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-19T16:42:57.025Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:42:57.790Z [info]: Created CAPTCHA task ID: 422440
+2025-02-19T16:43:03.376Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:08.800Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:14.384Z [info]: CAPTCHA status: ERROR_WRONG_CAPTCHA_ID
+2025-02-19T16:43:14.385Z [error]: SolveCaptcha error: ERROR_WRONG_CAPTCHA_ID
+2025-02-19T16:43:14.385Z [error]: Attempt 1 failed: ERROR_WRONG_CAPTCHA_ID
+2025-02-19T16:43:14.957Z [info]: Retrying... (1/3)
+2025-02-19T16:43:15.714Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-19T16:43:21.403Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-19T16:43:22.114Z [info]: Created CAPTCHA task ID: 422452
+2025-02-19T16:43:27.756Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:33.429Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:38.754Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:44.388Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:50.021Z [info]: CAPTCHA status: CAPCHA_NOT_READY
+2025-02-19T16:43:55.551Z [info]: CAPTCHA solved successfully
+2025-02-19T16:43:55.551Z [info]: TOKEN: P1_eyJ0eXA...
+2025-02-19T16:44:04.856Z [info]: CAPTCHA solution submitted
+2025-02-19T16:44:12.464Z [info]: Successfully bypassed CAPTCHA
+2025-02-19T16:44:27.139Z [info]: Starting CAPTCHA bypass attempt 1
