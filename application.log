@@ -1,0 +1,45 @@
+2025-02-20T00:02:03.472Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:02:22.438Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:02:30.197Z [info]: TOKEN: none...
+2025-02-20T00:02:30.530Z [info]: CAPTCHA solution submitted
+2025-02-20T00:02:31.056Z [error]: Attempt 1 failed: CAPTCHA verification failed
+2025-02-20T00:02:31.488Z [info]: Retrying... (1/10)
+2025-02-20T00:02:31.946Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-20T00:02:39.723Z [info]: TOKEN: none...
+2025-02-20T00:02:40.077Z [info]: CAPTCHA solution submitted
+2025-02-20T00:02:40.653Z [error]: Attempt 2 failed: CAPTCHA verification failed
+2025-02-20T00:02:41.060Z [info]: Retrying... (2/10)
+2025-02-20T00:02:41.529Z [info]: Starting CAPTCHA bypass attempt 3
+2025-02-20T00:02:49.346Z [info]: TOKEN: none...
+2025-02-20T00:02:49.670Z [info]: CAPTCHA solution submitted
+2025-02-20T00:02:50.236Z [error]: Attempt 3 failed: CAPTCHA verification failed
+2025-02-20T00:02:50.603Z [info]: Retrying... (3/10)
+2025-02-20T00:02:51.056Z [info]: Starting CAPTCHA bypass attempt 4
+2025-02-20T00:02:58.712Z [info]: TOKEN: none...
+2025-02-20T00:02:59.074Z [info]: CAPTCHA solution submitted
+2025-02-20T00:02:59.793Z [error]: Attempt 4 failed: CAPTCHA verification failed
+2025-02-20T00:03:00.221Z [info]: Retrying... (4/10)
+2025-02-20T00:03:00.692Z [info]: Starting CAPTCHA bypass attempt 5
+2025-02-20T00:03:15.364Z [error]: Attempt 5 failed: Waiting for selector `#cf_input` failed: Waiting failed: 10000ms exceeded
+2025-02-20T00:03:15.772Z [info]: Retrying... (5/10)
+2025-02-20T00:03:16.271Z [info]: Starting CAPTCHA bypass attempt 6
+2025-02-20T00:03:31.043Z [error]: Attempt 6 failed: Waiting for selector `#cf_input` failed: Waiting failed: 10000ms exceeded
+2025-02-20T00:03:31.418Z [info]: Retrying... (6/10)
+2025-02-20T00:03:31.941Z [info]: Starting CAPTCHA bypass attempt 7
+2025-02-20T00:03:39.728Z [info]: TOKEN: none...
+2025-02-20T00:03:40.029Z [info]: CAPTCHA solution submitted
+2025-02-20T00:03:40.635Z [error]: Attempt 7 failed: CAPTCHA verification failed
+2025-02-20T00:03:41.031Z [info]: Retrying... (7/10)
+2025-02-20T00:03:41.489Z [info]: Starting CAPTCHA bypass attempt 8
+2025-02-20T00:03:49.354Z [info]: TOKEN: none...
+2025-02-20T00:03:49.567Z [info]: CAPTCHA solution submitted
+2025-02-20T00:03:50.531Z [error]: Attempt 8 failed: CAPTCHA verification failed
+2025-02-20T00:03:50.991Z [info]: Retrying... (8/10)
+2025-02-20T00:03:51.506Z [info]: Starting CAPTCHA bypass attempt 9
+2025-02-20T00:03:59.235Z [info]: TOKEN: none...
+2025-02-20T00:03:59.396Z [info]: CAPTCHA solution submitted
+2025-02-20T00:04:00.265Z [error]: Attempt 9 failed: CAPTCHA verification failed
+2025-02-20T00:04:00.707Z [info]: Retrying... (9/10)
+2025-02-20T00:04:01.204Z [info]: Starting CAPTCHA bypass attempt 10
+2025-02-20T00:04:15.976Z [error]: Attempt 10 failed: Waiting for selector `#cf_input` failed: Waiting failed: 10000ms exceeded
+2025-02-20T00:04:16.591Z [error]: All attempts failed
