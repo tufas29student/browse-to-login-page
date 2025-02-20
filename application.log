@@ -1,0 +1,15 @@
+2025-02-20T00:30:00.587Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:30:05.731Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-20T00:32:28.375Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:32:36.979Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-20T00:33:36.374Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:33:45.421Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-20T00:34:36.620Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:34:45.287Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-20T00:35:36.398Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:35:45.265Z [info]: No CAPTCHA detected, proceeding directly
+2025-02-20T00:35:47.447Z [error]: Attempt 1 failed: Protocol error (Input.dispatchKeyEvent): Session closed. Most likely the page has been closed.
+2025-02-20T00:35:47.781Z [info]: Retrying... (1/10)
+2025-02-20T00:35:48.280Z [info]: Starting CAPTCHA bypass attempt 2
+2025-02-20T00:35:59.404Z [info]: Starting CAPTCHA bypass attempt 1
+2025-02-20T00:36:08.227Z [info]: No CAPTCHA detected, proceeding directly

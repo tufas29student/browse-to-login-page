@@ -86,6 +86,11 @@ async function solveCaptcha(retryCount = 0) {
     await page.waitForSelector('input[placeholder="yourmail@email.co.il"]', {
       timeout: 10000,
     });
+    await page.waitForSelector('input[placeholder="הקלדת סיסמה"]', {
+      timeout: 10000,
+    });
+
+    await page.focus('input[placeholder="yourmail@email.co.il"]');
     await page.type(
       'input[placeholder="yourmail@email.co.il"]',
       "EXAMPLE-MAIL",
@@ -94,12 +99,12 @@ async function solveCaptcha(retryCount = 0) {
       }
     );
 
-    await page.waitForSelector('input[placeholder="הקלדת סיסמה"]', {
-      timeout: 10000,
-    });
+    await page.focus('input[placeholder="הקלדת סיסמה"]');
     await page.type('input[placeholder="הקלדת סיסמה"]', "EXAMPLE-PASSWORD", {
       delay: Math.floor(Math.random() * 300) + 200,
     });
+
+    // browser.close();
   } catch (error) {
     logger.error(`Attempt ${retryCount + 1} failed: ${error.message}`);
     await browser.close();
