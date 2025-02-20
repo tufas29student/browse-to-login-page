@@ -90,7 +90,7 @@ async function solveCaptcha(retryCount = 0) {
       'input[placeholder="yourmail@email.co.il"]',
       "EXAMPLE-MAIL",
       {
-        delay: 200,
+        delay: Math.floor(Math.random() * 300) + 200,
       }
     );
 
@@ -98,7 +98,7 @@ async function solveCaptcha(retryCount = 0) {
       timeout: 10000,
     });
     await page.type('input[placeholder="הקלדת סיסמה"]', "EXAMPLE-PASSWORD", {
-      delay: 200,
+      delay: Math.floor(Math.random() * 300) + 200,
     });
   } catch (error) {
     logger.error(`Attempt ${retryCount + 1} failed: ${error.message}`);
