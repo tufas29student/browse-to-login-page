@@ -83,23 +83,13 @@ async function solveCaptcha(retryCount = 0) {
     //LOGIN EXAMPLE//
     ////////////////
 
-    const emailInput = await page.waitForSelector(
-      'input[placeholder="yourmail@email.co.il"]',
-      {
-        timeout: 10000,
-      }
-    );
-    await emailInput.click();
-    await emailInput.type("EXAMPLE-MAIL", { delay: 50 });
+    await page
+      .locator('input[placeholder="yourmail@email.co.il"]')
+      .fill("EXAMPLE-MAIL");
 
-    const passwordInput = await page.waitForSelector(
-      'input[placeholder="הקלדת סיסמה"]',
-      {
-        timeout: 10000,
-      }
-    );
-    await passwordInput.click();
-    passwordInput.type("EXAMPLE-PASSWORD", { delay: 50 });
+    await page
+      .locator('input[placeholder="הקלדת סיסמה"]')
+      .fill("EXAMPLE-PASSWORD");
 
     // browser.close();
   } catch (error) {
