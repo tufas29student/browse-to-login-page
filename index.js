@@ -84,11 +84,11 @@ async function solveCaptcha(retryCount = 0) {
     ////////////////
 
     await page
-      .locator('input[placeholder="yourmail@email.co.il"]')
+      .locator('input[placeholder="yourmail@email.co.il"]', { timeout: 10000 })
       .fill("EXAMPLE-MAIL");
 
     await page
-      .locator('input[placeholder="הקלדת סיסמה"]')
+      .locator('input[placeholder="הקלדת סיסמה"]', { timeout: 10000 })
       .fill("EXAMPLE-PASSWORD");
 
     // browser.close();
