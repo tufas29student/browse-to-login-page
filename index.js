@@ -11,7 +11,7 @@ async function solveCaptcha(retryCount = 0) {
 
   // FOR TESTING PURPOSES, PLAY WITH NUMBERS, DONT USE IN PRODUCTION!!!
   // page.setExtraHTTPHeaders({
-  //   "User-Agent": "bot  4.1.4",
+  //   "User-Agent": "bot  9.2.4",
   // });
 
   try {
@@ -84,13 +84,26 @@ async function solveCaptcha(retryCount = 0) {
     ////////////////
 
     await page
-      .locator('input[placeholder="yourmail@email.co.il"]', { timeout: 10000 })
+      .locator('input[placeholder="yourmail@email.co.il"]', { timeout: 5000 })
       .fill("EXAMPLE-MAIL");
 
+    await page.$eval('input[placeholder="yourmail@email.co.il"]', (input) => {
+      if (input.getAttribute("value") !== "EXAMPLE-MAIL") {
+        throw new Error("Email Input value is not valid");
+      }
+    });
+
     await page
-      .locator('input[placeholder="הקלדת סיסמה"]', { timeout: 10000 })
+      .locator('input[placeholder="הקלדת סיסמה"]', { timeout: 5000 })
       .fill("EXAMPLE-PASSWORD");
 
+    await page.$eval('input[placeholder="הקלדת סיסמה"]', (input) => {
+      if (input.getAttribute("value") !== "EXAMPLE-PASSWORD") {
+        throw new Error("Password Input value is not valid");
+      }
+    });
+
+    // await new Promise((r) => setTimeout(r, 1000));
     // browser.close();
   } catch (error) {
     logger.error(`Attempt ${retryCount + 1} failed: ${error.message}`);
