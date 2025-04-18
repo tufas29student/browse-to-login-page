@@ -1,8 +1,7 @@
 const puppeteer = require("puppeteer");
 const solver = require("./solver");
 const logger = require("./logger");
-const url =
-  "https://www.yad2.co.il/my-alerts/realestate/66e34186bb50e18879901b70?utm_source=myAlertsRealestate&utm_medium=email&utm_campaign=myAlertsFeed";
+const url = "https://www.yad2.co.il/auth/login";
 
 async function solveCaptcha(retryCount = 0) {
   const MAX_RETRIES = 5;
